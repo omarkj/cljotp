@@ -2,6 +2,7 @@
   (:use clojure.test
         cljotp.core))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest test-hotp
+  (testing "HOTP code generation"
+    (is (= 765705 (get-hotp "MFRGGZDFMZTWQ2LK" 1)))
+    (is (= 816065 (get-hotp "MFRGGZDFMZTWQ2LK" 2)))))
