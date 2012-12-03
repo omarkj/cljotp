@@ -18,3 +18,10 @@ Get a TOTP based on the time
 ``` clojure
 (get-totp secret)
 ```
+
+The secret needs to be a base32 encoded secret key!
+
+Licence
+-------
+
+Check the `LICENCE` file.
