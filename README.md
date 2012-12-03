@@ -1,8 +1,9 @@
 Cljotp
 ======
 
-Generate one time passwords, HOTPs and TOTPs for your application.
-Should work with the Google Authenticator.
+Generate one time passwords, [HOTP](http://en.wikipedia.org/wiki/HOTP)s and
+[TOTP](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm)s for 
+your application. Should work with the Google Authenticator.
 
 Clojure API
 -----------
