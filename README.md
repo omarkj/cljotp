@@ -10,7 +10,7 @@ Clojure API
 Get a HTOP based on a interval number
 
 ``` clojure
-(get-hotp secret, interval)
+(get-hotp secret interval)
 ```
 
 Get a TOTP based on the time
